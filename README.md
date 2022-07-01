@@ -4,7 +4,7 @@ Attempts to make a connection to a websocket server. Listens for data and displa
 Uses the WebSockets library by Markus Sattler
 https://github.com/Links2004/arduinoWebSockets
 
-(It's available through the Arduino Liberary Manager)
+(It's available through the Arduino Library Manager)
 
 Edit the network credentials in network.h to match your setup. 
 
