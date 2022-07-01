@@ -1,7 +1,13 @@
 /*
- * WebSocketClient.ino
- *
- *  Created on: 24.05.2015
+ * test_websocket_client.ino
+ * 
+ * 1 July 22
+ *   Modified example code from websockets library created by Markus Sattler. 
+ *   https://github.com/Links2004/arduinoWebSockets
+ *   
+ *   Slight modifications by JMP, Digame Systems.
+ *   Project on GitHub:
+ *   https://github.com/digamesystems/test_websocket_client
  *
  */
 
