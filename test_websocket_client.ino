@@ -28,7 +28,7 @@ WebSocketsClient webSocket;
 
 
 #define USE_SERIAL Serial
-bool showData = true;
+bool showData = true; 
 
 void hexdump(const void *mem, uint32_t len, uint8_t cols = 16) {
 	const uint8_t* src = (const uint8_t*) mem;
@@ -68,7 +68,9 @@ void webSocketEvent(WStype_t type, uint8_t * payload, size_t length) {
 			// send data to server
 			// webSocket.sendBIN(payload, length);
 			break;
-		case WStype_ERROR:			
+		case WStype_ERROR:
+      //USE_SERIAL.printf("Connection Error!\n");
+        			
 		case WStype_FRAGMENT_TEXT_START:
 		case WStype_FRAGMENT_BIN_START:
 		case WStype_FRAGMENT:
